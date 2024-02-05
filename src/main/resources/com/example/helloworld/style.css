@@ -1,0 +1,36 @@
+/* Common style for scenes */
+.scene-root {
+    -fx-background-image: url("https://wallpapercave.com/wp/wp11148267.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1920 1080;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+/* Style for buttons with rounded corners */
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text color */
+    -fx-min-width: 250px;  /* Set width and height for the button */
+    -fx-min-height: 80px;
+    -fx-background-radius: 30px; /* Add rounded corners */
+}
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green background on hover */
+}
+
+/* Style for logo */
+.imageView {
+    -fx-fit-width: 10px; /* Specify width for the logo */
+    -fx-fit-height: 10px; /* Specify height for the logo */
+    -fx-padding: 2px; /* Add padding around the logo */
+}
+
+/* Style for lable */
+.label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+}

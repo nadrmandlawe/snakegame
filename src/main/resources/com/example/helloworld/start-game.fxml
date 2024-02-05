@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.helloworld.StartGameController" styleClass="scene-root">
+    <center>
+        <Label text="This is the Second Scene" styleClass="lablel"/>
+    </center>
+</BorderPane>
